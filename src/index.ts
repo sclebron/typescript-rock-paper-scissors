@@ -1,8 +1,8 @@
 let gameMessage = confirm("Hi! Let's play rock, paper, scissors!");
 
-let wins = 0;
-let losses = 0;
-let ties = 0;
+let wins: number = 0;
+let losses: number = 0;
+let ties: number = 0;
 
 let game = function() {
 let userChoice = prompt("Please enter rock, paper, or scissors");
